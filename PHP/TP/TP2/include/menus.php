@@ -25,25 +25,45 @@
 				}
 				echo '</li>';
 				
-				
-				echo '<li class="nav-item">';
-				if ($page == 'page3.php') {
-					echo '<a class="nav-link active" href="page3.php">Page 3</a>';
-				}
-				else {
-					echo '<a class="nav-link" href="page3.php">Page 3</a>';
-				}
-				echo '</li>';
-				
-				
-				echo '<li class="nav-item">';
-				if ($page == 'page4.php') {
-					echo '<a class="nav-link active" href="page4.php">Page 4</a>';
-				}
-				else {
-					echo '<a class="nav-link" href="page4.php">Page 4</a>';
-				}
-				echo '</li>';	
+
+                echo '<li class="nav-item">';
+                if ($page == 'Exercice_1_2.php') {
+                    echo '<a class="nav-link active" href="Exercice_1_2.php">Exercice_1_2</a>';
+                }
+                else {
+                    echo '<a class="nav-link" href="Exercice_1_2.php">Exercice_1_2</a>';
+                }
+                echo '</li>';
+
+
+                echo '<li class="nav-item">';
+                if ($page == 'Exercice_1_3.php') {
+                    echo '<a class="nav-link active" href="Exercice_1_3.php">Exercice_1_3</a>';
+                }
+                else {
+                    echo '<a class="nav-link" href="Exercice_1_3.php">Exercice_1_3</a>';
+                }
+                echo '</li>';
+
+
+                echo '<li class="nav-item">';
+                if ($page == 'Exercice_1_4.php') {
+                    echo '<a class="nav-link active" href="Exercice_1_4.php">Exercice_1_4</a>';
+                }
+                else {
+                    echo '<a class="nav-link" href="Exercice_1_4.php">Exercice_1_4</a>';
+                }
+                echo '</li>';
+
+
+                echo '<li class="nav-item">';
+                if ($page == 'Exercice_1_5.php') {
+                    echo '<a class="nav-link active" href="Exercice_1_5.php">Exercice_1_5</a>';
+                }
+                else {
+                    echo '<a class="nav-link" href="Exercice_1_5.php">Exercice_1_5</a>';
+                }
+                echo '</li>';
 			?>
         </ul>
     </div>

@@ -19,10 +19,10 @@
         <div style="padding-top: 30px" class="main">
             <div class="col-md-12">
                 <?php
-                $tab = array("StarWars" => array("Lucas", 1977, "USA"),
-                    "Preadtor" => array("McTiernan", 1987, "USA"),
-                    "Blade Runner" => array("Scott", 1982, "USA"));
-                
+                $tab = array("StarWars" => array("Realisateur" => "Lucas", "Année" => 1977, "Pays" => "USA"),
+                    "Predator" => array("Realisateur" => "McTiernan", "Année" => 1987, "Pays" => "USA"),
+                   "Blade Runner" => array("Realisateur" => "Scott", "Année" => 1982, "Pays" => "USA"));
+
                 echo "<pre>";
                 print_r($tab);
                 echo "</pre>";

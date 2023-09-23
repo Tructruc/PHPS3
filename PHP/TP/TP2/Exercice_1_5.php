@@ -19,13 +19,27 @@
         <div style="padding-top: 30px" class="main">
             <div class="col-md-12">
                 <?php
-                $tab = array("StarWars" => array("Lucas", 1977, "USA"),
-                    "Preadtor" => array("McTiernan", 1987, "USA"),
-                    "Blade Runner" => array("Scott", 1982, "USA"));
-                
+                    $dnt = array("11/02/1955","24/04/1953", "15/10/2004", "30/04/1978", "13/07/2000");
+
+                echo "<h2>Tableau des date de naissances</h2>";
+
                 echo "<pre>";
-                print_r($tab);
+                print_r($dnt);
                 echo "</pre>";
+
+
+                echo "<h2>Tableau des années de naissances</h2>";
+
+                $annee = array();
+
+                foreach ($dnt as $value) {
+                    $annee[] = substr($value, 6, 4);
+                }
+
+                echo "<pre>";
+                print_r($annee);
+                echo "</pre>";
+
                 ?>
             </div>
         </div>

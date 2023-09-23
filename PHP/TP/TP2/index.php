@@ -4,7 +4,12 @@
 	<meta charset="utf-8"/>
     <link rel="stylesheet" href="include/bootstrap.min.css">
     <link rel="stylesheet" href="include/styles.css">
-	<title>Mon site PWS en PHP!</title>
+    <?php
+        $page = pathinfo($_SERVER['PHP_SELF'], PATHINFO_BASENAME);
+        $page = explode(".", $page);
+        $page = $page[0];
+        echo "<title>$page</title>";
+    ?>
 </head>
 <body>
 	<?php include("./include/header.php"); ?>
