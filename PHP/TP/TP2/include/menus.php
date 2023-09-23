@@ -18,10 +18,10 @@
 				
 				echo '<li class="nav-item">';
 				if ($page == 'Exercice_1_1.php') {
-					echo '<a class="nav-link active" href="Exercice_1_1.php">Page 2</a>';
+					echo '<a class="nav-link active" href="Exercice_1_1.php">Exercice_1_1</a>';
 				}
 				else {
-					echo '<a class="nav-link" href="Exercice_1_1.php">Page 2</a>';
+					echo '<a class="nav-link" href="Exercice_1_1.php">Exercice_1_1</a>';
 				}
 				echo '</li>';
 				
